@@ -10,7 +10,7 @@ namespace Caching2.Controllers
     {
         private static readonly string[] TestingNames = new[]
         {
-        "Hiren", "Lal", "Raj", "Ravi", "Rajesh"
+        "Vadher", "Bhavesh", "Tapas", "Bipin", "Bhavesh"
     };
 
         private readonly ILogger<BCDController> _logger;
@@ -36,9 +36,9 @@ namespace Caching2.Controllers
 
             var samps
                 = Enumerable.Range(1, 5).Select(index => new SampModel
-            {
-                Name = TestingNames[index]
-            })
+                {
+                    Name = TestingNames[index]
+                })
             .ToArray();
 
             var options = new DistributedCacheEntryOptions()
