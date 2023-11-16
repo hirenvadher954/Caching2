@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.7.34031.279
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Caching2", "Caching2\Caching2.csproj", "{30FF2CBD-8190-44A6-9A0C-9DC95CE695C4}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Vade1", "Caching2\Vade1.csproj", "{30FF2CBD-8190-44A6-9A0C-9DC95CE695C4}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
