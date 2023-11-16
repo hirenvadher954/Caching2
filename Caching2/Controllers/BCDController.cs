@@ -26,7 +26,7 @@ namespace Caching2.Controllers
         [HttpGet(Name = "GetTest")]
         public async Task<IEnumerable<SampModel>> Get()
         {
-            const string cacheKey = "WeatherForecast";
+            const string cacheKey = "SampKey";
             var cachedData = await _cache.GetStringAsync(cacheKey);
 
             if (cachedData != null)
